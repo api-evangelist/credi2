@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.credi2.com
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: Credi2 states ISO 27001 certification (information security management) on its website.
+- id: iso-27701
+  conforms: true
+  evidence: Credi2 states ISO 27701 certification (privacy information management) on its website.
+compliance_program:
+  certifications:
+  - ISO 27001
+  - ISO 27701
+  source: https://www.credi2.com
+notes: >-
+  Credi2 operates a regulated white-label embedded lending / core-banking
+  platform in the EU (Austria). ISO 27001 and ISO 27701 are the certifications
+  it publicly advertises. No public developer OpenAPI is available to derive
+  further cross-cutting API standards conformance.

@@ -1,7 +1,30 @@
 aid: credi2
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/credi2.png
 name: Credi2
-description: Credi2 is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Credi2 GmbH is a Vienna, Austria based fintech that operates a white-label,
+  cloud-native embedded lending platform enabling banks, card issuers, and
+  merchants to launch Buy Now Pay Later (BNPL) and installment financing
+  products under their own brand. The modular platform covers five financing
+  products - pay per invoice (14-day BNPL), split pay (3-12 month installments
+  up to EUR 5,000), installment loans (up to EUR 50,000 over 84 months),
+  revolving credit lines, and subscription financing - and handles the full
+  lifecycle including core banking operations, credit and risk management,
+  servicing, and collections. Use cases span eCommerce and point-of-sale
+  financing, subscription payments, installment-on-cards, and cash loans, with
+  omni-channel integration and go-live in weeks. Credi2 is ISO 27001 and ISO
+  27701 certified and is backed by Speedinvest.
 url: https://raw.githubusercontent.com/api-evangelist/credi2/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Embedded Finance
+- Lending
+- Buy Now Pay Later
+- BNPL
+- Installments
+- Fintech
+- Banking
+- Card Issuing
+- Credit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/credi2-domain-security.yml
 - type: Website
-  url: https://credi2.com
+  url: https://www.credi2.com
+- type: Blog
+  url: https://www.credi2.com/blog
+- type: Support
+  url: https://www.credi2.com/company/contact
+- type: PrivacyPolicy
+  url: https://www.credi2.com/privacy
+- type: VulnerabilityDisclosure
+  url: security/credi2-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.credi2.com/legals/vulnerability-disclosure-policy
+- type: Compliance
+  url: https://www.credi2.com
+- type: Conformance
+  url: conformance/credi2-conformance.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/credi2-gmbh/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
