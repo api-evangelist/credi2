@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Credi2 is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Credi2 GmbH is a Vienna, Austria based fintech that operates a white-label, cloud-native embedded lending platform enabling banks, card issuers, and merchants to launch Buy Now Pay Later (BNPL) and installment financing products under their own brand. The modular platform covers five financing products - pay per invoice (14-day BNPL), split pay (3-12 month installments up to EUR 5,000), installment loans (up to EUR 50,000 over 84 months), revolving credit lines, and subscription financing - and handles the full lifecycle including core banking operations, credit and risk management, servicing, and collections. Use cases span eCommerce and point-of-sale financing, subscription payments, installment-on-cards, and cash loans, with omni-channel integration and go-live in weeks. Credi2 is ISO 27001 and ISO 27701 certified and is backed by Speedinvest.
 
-Backed by: speedinvest — https://credi2.com
+**Areas:** Company · Embedded Finance · Lending · Buy Now Pay Later · Installments · Fintech · Banking · Card Issuing · Credit
+
+## Credi2 on APIs.io
+
+Everything profiled for Credi2 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/credi2/](https://apis.io/providers/credi2/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Credi2 Domain Security](https://apis.io/security/credi2/credi2-domain-security/)
+- [Credi2 Vulnerability Disclosure](https://apis.io/security/credi2/credi2-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.credi2.com)
+- [Support](https://www.credi2.com/company/contact)
+- [Blog](https://www.credi2.com/blog)
+- [Security](https://www.credi2.com/legals/vulnerability-disclosure-policy)
+- [Compliance](https://www.credi2.com)
+- [Privacy policy](https://www.credi2.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 13.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 20.5** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/credi2/](https://apis.io/providers/credi2/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Credi2: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/credi2/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
